@@ -5,7 +5,7 @@ export interface Todo {
 	title: string;
 	completed: boolean;
 }
-
+//thi is axios
 const todosApi = axios.create({
 	baseURL: 'http://localhost:8000	',
 });
